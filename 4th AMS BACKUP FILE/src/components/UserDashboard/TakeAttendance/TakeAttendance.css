@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.attendanceContanier{
+    width: 90vw;
+    display: flex;
+}
+
+.attendance_details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middleContainer{
+    width: fit-content;
+
+}
+.employeeRightSidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.employeeDetails{
+    width: 285.13px;
+    height: 372px;
+    border-radius: 16.92px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.WorkingHours{
+    width: 284px;
+    height: 143px;
+    top: 887px;
+    left: 1097px;
+    border-radius: 15.43px;
+    border: 1.03px;
+    background: rgba(255, 255, 255, 1);
+
+}

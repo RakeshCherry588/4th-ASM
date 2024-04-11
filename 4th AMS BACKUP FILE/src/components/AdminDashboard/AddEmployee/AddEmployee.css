@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.addEmployeeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .addContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .employeeInputs {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+    width: 83vw;
+    height: fit-content;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    padding: 20px;
+    margin-bottom: 20px ;
+  }
+
+  .EmpInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .EmpInfo img{
+    margin-bottom: 1rem;
+    margin-right: 10px;
+  }
+
+  .EmpInfo p{
+    font-family: Lexend;
+    font-size: 16.97px;
+    font-weight: 600;
+    line-height: 25.45px;
+    text-align: left;
+    color: rgba(0, 67, 255, 1);
+
+  }
+  
+  .addEmpRow {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  
+  .addEmpRow input,
+  .addEmpRow select {
+    flex: 1;
+    margin-right: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 502.82px;
+    font-family: Lexend;
+    font-size: 16.97px;
+    font-weight: 300;
+    line-height: 25.45px;
+    text-align: left;
+
+  }
+  
+  .addEmpbuttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 1rem;
+  }
+  
+  .addEmpbuttons button {
+    margin-left: 1rem;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .addEmpbuttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .addContainer{
+    display: flex;
+    margin-left: 3rem;
+    border: 2px solid red;
+}
+
+.employeeInputs{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    width: 83vw;
+    height: fit-content;
+    margin-left: 3rem;
+    border-radius: 1rem;
+}
+
+.inputFields{
+    display: flex;
+}
+
+.inputFields input{
+    border: 2px solid orange;
+} */
